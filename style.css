@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-image: url(../Assets/mapa-beje.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+
+.container-principal {
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 12px 12px rgb(199, 74, 12);
+    
+}
+
+.container-secundario {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+
+.titulo{
+    text-align: center;
+}
+
+#cep{
+    margin-top: 10px;
+}
+
+input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+h1{
+    font-family: "Roboto Mono", monospace;
+}
+
+h3{
+    font-family: "Roboto Mono", monospace;
+    margin-bottom: 5px;
+}
+
+#butao {
+    background-color: rgb(206, 43, 43);
+    color: aliceblue;
+}
+
+
+.roboto-mono-bct {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  
